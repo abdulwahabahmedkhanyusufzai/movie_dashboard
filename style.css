@@ -115,3 +115,17 @@ img{
     justify-content: space-between;
     align-items: center;
 }
+.header__logo{
+    color:var(--white-color);
+    font-weight: var(--font-medium);
+
+}
+.header__actions{
+    column-gap: .75rem;
+    align-items: center;
+    font-size: 1.25rem;
+}
+.header__actions i,
+.header__menu{
+    cursor: pointer;
+}
