@@ -95,3 +95,23 @@ img{
     -webkit-backdrop-filter: blur(16px);
     backdrop-filter: blur(16px);
 }
+.header{
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    background-color: transparent;
+    display: grid;
+    row-gap: 1.5rem;
+    padding: 1rem 1.5rem;
+    z-index: var(--z-fixed);
+}
+.header__content,
+.header__actions,
+.header__search{
+       display:flex ;
+}
+.header__content{
+    justify-content: space-between;
+    align-items: center;
+}
