@@ -151,3 +151,53 @@ img{
 .header__input::placeholder{
     color:var(--white-color)
 }
+.nav{
+    position: fixed;
+    top:0;
+    right: -100%;
+    background-color: hsla(0, 0% ,0%,.2);
+    backdrop-filter: blur(16px);
+    --webkit-backdrop-filter:blur(16px);
+    width: 285px;
+    height: 100%;
+    padding: 3rem 3.5rem;
+    z-index: var(--z-fixed);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: right .4;
+}
+.nav__logo{
+    color:var(--white-color);
+    font-weight: var(--font-semi-bold);
+}
+.nav__logo,
+.nav__list{
+    padding-bottom: 1.25rem;
+    border-bottom: 1px solid var(--white-color-light);
+}
+.nav__menu,
+.nav__list{
+    display: grid;
+    row-gap: 2rem;
+}
+.nav__link{
+    color:var(--white-color);
+    display: inline flex;
+    align-items: center;
+    column-gap: .75rem;
+}
+.nav__link i{
+    font-size: 1.5rem;
+}
+.nav__title{
+    font-size: var(--normal-font-size);
+    margin-bottom: .75rem;
+}
+.nav__close{
+    position: absolute;
+    top:1rem;
+    right:1.5rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
