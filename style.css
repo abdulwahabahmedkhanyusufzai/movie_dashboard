@@ -165,7 +165,7 @@ img{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    transition: right .4;
+    transition: right .4s;
 }
 .nav__logo{
     color:var(--white-color);
@@ -200,4 +200,7 @@ img{
     right:1.5rem;
     font-size: 1.5rem;
     cursor: pointer;
+}
+.show-menu{
+    right:0;
 }
