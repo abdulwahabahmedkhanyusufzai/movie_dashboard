@@ -129,3 +129,25 @@ img{
 .header__menu{
     cursor: pointer;
 }
+.header__search{
+    align-items: center;
+    column-gap: .5rem;
+    background-color: hsla(0, 0%, 100%, .15);
+    --webkit-backdrop-filter: blur(16px);
+    backdrop-filter: blur(16px);
+    padding-inline: 1rem;
+    border-radius: .75rem;
+
+}
+.header__search i{
+    font-size: 1.25rem;
+}
+.header__input{
+    width:100%;
+    padding-block: 1rem;
+    background-color: transparent;
+    color:var(--white-color);
+}
+.header__input::placeholder{
+    color:var(--white-color)
+}
