@@ -280,3 +280,6 @@ img{
 .movie{
     display: grid;
 }
+.swiper {
+    margin-inline: initial;
+}  
